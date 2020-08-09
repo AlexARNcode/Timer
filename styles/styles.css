@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    font-family: 'Judson', serif;
+}
+
+header {
+    background-image: linear-gradient(#3c3c3c,#111);
+    color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    border-bottom: solid grey 1px;
+  }
+
+  h2 {
+      text-align: center;
+      margin: 0px;
+  }
+
+    input[type=button] {
+        display:block;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        margin: 30px;
+        font-size: 1.3em;
+  }
+  
+
+.select {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.select option {
+    background-color: black;
+    color: white;
+    appearance: none;
+    font-size: 1.5em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#ring {}
+
+#output {
+    text-align: center;
+    font-size: 10em;
+}
+
+#startBtn {
+    background-color: green;
+    border: 1px solid lightgreen;
+    color: lightgreen;
+}
+
+#stopBtn {
+    background-color: black;
+    border: 1px solid lightgray;
+    color: lightgray;
+}
